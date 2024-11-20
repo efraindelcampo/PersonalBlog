@@ -1,0 +1,54 @@
+a {
+  text-decoration: none;
+}
+
+article {
+  flex: 1 1 50%;
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 1rem;
+  position: relative;
+}
+
+article blockquote {
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+article p {
+  position: absolute;
+  left: 1rem;
+}
+
+footer {
+  position: fixed;
+  inset: 0;
+  top: calc(100% - 12rem);
+}
+
+li {
+  margin: 1rem;
+}
+
+main {
+  flex-direction: column;
+  padding: 1rem;
+  justify-content: flex-start;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  flex: 1 1 50%;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+#back {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  border: black;
+}
