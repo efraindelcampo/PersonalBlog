@@ -28,7 +28,7 @@ const handleFormSubmit = function (event) {
 };
 
 const redirectPage = function () {
-  location.href = "./blog.html";
+  location.href = "./assets/blog.html";
 };
 
 const storeLocalStorage = function (data) {
